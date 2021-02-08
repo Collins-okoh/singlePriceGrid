@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.mainContainer {
+    width: 50%;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    border-radius: 10px;
+    /* padding: 15px 15px; */
+}
+
+.join {
+    background-color: #fff;
+    padding: 20px 45px;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: hsl(218, 22%, 67%);
+}
+
+.subscription {
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    /* margin-top: 0; */
+    padding: 13px 7%;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+}
+
+.whyUs { 
+    background-color: hsl(218, 22%, 67%);
+    width: 50%;
+    float: right;
+    margin-top: -29.9%;
+    padding: 12px 7%;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+}
+
+#first {
+    font-size: 20px;
+    color: hsl(179, 62%, 43%);
+}
+
+#bright {
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+}
+
+#dollar {
+    font-size: 20px;
+}
+
+#perfect {
+    display: block;
+}
+
+.why {
+    display: block;
+    font-size: 13px;
+}
+
+button {
+    width: 86%;
+    margin-bottom: 14px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    color: #fff;
+    background-color: hsl(71, 73%, 54%);
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: hsl(204, 43%, 93%);
+    }
+
+    .mainContainer {
+        width: 80%;
+        position: fixed;
+        top: 10%;
+        left: 10%;
+    }
+
+    .join {
+        width: 100%;
+        font-size: 13px;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+
+    .subscription {
+        background-color: hsl(179, 62%, 43%);
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 15px;
+        padding: 20px 40px;
+    }
+
+    .whyUs {
+        background-color: hsl(218, 22%, 67%);
+        clear: both;
+        width: 100%;
+        padding: 7% 40px;
+        box-sizing: border-box;
+        color: #fff;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+
+    button {
+        width: 95%;
+        margin-bottom: 40%;
+        padding: 10px 9px;
+        border-radius: 7px;
+        color: #fff;
+        background-color: hsl(71, 73%, 54%);
+    }
+}
